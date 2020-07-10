@@ -20,11 +20,12 @@ The project takes about 2-5 hour building time for an intermediate builder, depe
 **Bliptronome_Inst.pdf** : The original Software instructions
 **Bliptronome_V3.ino** : The original Arduino firmware for the Bliptronome
 **V2_PinConnections.jpg**: pin connections between Arduino and Bliptronic 64 button PCB with additional component notes
-**LICENSE** : GPL-2.0 License 
+**LICENSE** : GPL-2.0 License
 **info.txt** : Additional information on the original hack
 **README.md** : This file
 
 #### Useful Links
+[Arduinome Serial Driver](https://sourceforge.net/projects/arduinome/files/Arduinome/): The original ArduinomeSerial Firmware
 
 [Flipmu.com on Archive.org](https://web.archive.org/web/20160711220743/http://flipmu.com/work/arduinome/): the original Arduinome Project Documentation
 
