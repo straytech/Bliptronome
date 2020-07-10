@@ -4,7 +4,7 @@ A Monome Clone conversion kit for the Thinkgeek Bliptronic 5000
 
 This project from 2010 is available here for reference and is no longer maintained, though I'll be happy to answer questions about it!
 
-####Description
+#### Description
 
 This project allows you to convert a ThinkGeek Bliptronic 5000 synthesizer to a fully working “Arduinome” style open-source Monome Clone controller.
 
@@ -14,7 +14,8 @@ Tools needed: Soldering iron, solder, screw driver, xacto-blade, and wire stripp
 
 The project takes about 2-5 hour building time for an intermediate builder, depending on the PCD construction.
 
-####Files
+#### Files
+
 **Bliptronome_Build.pdf** : The original kit building instructions
 **Bliptronome_Inst.pdf** : The original Software instructions
 **Bliptronome_V3.ino** : The original Arduino firmware for the Bliptronome
@@ -23,7 +24,7 @@ The project takes about 2-5 hour building time for an intermediate builder, depe
 **info.txt** : Additional information on the original hack
 **README.md** : This file
 
-####Useful Links
+#### Useful Links
 
 [Flipmu.com on Archive.org](https://web.archive.org/web/20160711220743/http://flipmu.com/work/arduinome/): the original Arduinome Project Documentation
 
