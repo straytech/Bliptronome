@@ -1,0 +1,52 @@
+*Bliptronome_V3*
+
+ Translation of Arduinome firmware for Bliptronics 5000 
+ http://www.thinkgeek.com/electronics/musical-instruments/c4e1/
+  
+ Wil Lindsay February 6th, 2010
+
+ http://www.straytechnologies.com for hardware mods, build  information & port blog
+ contact: wil@straytechnologies.com
+  
+Based on:
+  "ArduinomeFirmware3_2"  - With Revisions by 03/21/2009 Ben Southall
+  "ArduinomeFirmware" - Arduino Based Monome Clone by Owen Vallis & Jordan Hochenbaum 06/16/2008
+  A translation of the 40h protocol designed by Brian Crabtree & Joe Lake, and coded by   Joe Lake.
+
+Thanks to all of you & those who supported this in the forums & via email!
+
+Included files:
+info.txt		: this file
+V2_PinConnections.jpg	: pin connections between Arduino and Bliptronic 64 button PCB with additional component notes
+Bliptronome_V3.ino	: Arduino firmware file
+gpl-2.0			: obligatory gpl license
+
+Additional Info:
+I will be releasing conversion kits in the near future with all needed parts, pre-programmed atmega 328 chips, and extensive instructions. 
+-------------------------------------------------------------
+For the "I know what I'm doing & I wanna Do it NOW!!!" folks:
+-------------------------------------------------------------
+any mini Arduino clone that uses an FTDI cable works best, or build your own with: 
+Atmel Atmega 328 Microcontroller
+16Mhz crystal
+.1uf capacitor
+6 pin FTDI pin header
+small protoboard
+Also: 
+Ribbon cable to the controller (follow V2_PinConnections.jpg)
+Ribbon Cable to 4 potentiometers (I used 5k pots-- outside solder lugs to 5V & GND, center solder lugs to A0-A4 pins on the Arduino)
+8 x 10k resistors as per pin connections file
+
+I put my board where the speaker used to be, with minimal plastic cutting for the FTDI header and to fit the board.
+
+Flash the Bliptronome_V2.pde file to the controller
+Flash the FTDI name to "a40h-5xx" using MProg.exe (See Arduinome build instructions)
+Verify your Com Port is set to 57600
+Use ArduinomeSerial to link via OSC or MIDI 
+Set cable direction to "UP" or "TOP" (See Arduinome build instructions)
+Send me a tune!
+
+--------
+
+
+
